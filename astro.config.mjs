@@ -8,6 +8,7 @@ import rehypeExternalLinks from 'rehype-external-links'
 // https://astro.build/config
 export default defineConfig({
   site: 'https://7y3opm21.github.io',
+
   integrations: [mdx(), svelte()],
   markdown: {
     shikiConfig: {
@@ -24,3 +25,4 @@ export default defineConfig({
     ],
   },
 })
+
